@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="MsHg:n9f=$WSTj(uZ9ya">カウンター</variable></variables><block type="pxt-on-start" id="3HrN6.,~:5!vhsB1w]Sw" x="0" y="0"><statement name="HANDLER"><block type="basic_show_icon" id="#~AW`+S:3s.l,j-IJ@X|"><field name="i">IconNames.Heart</field></block></statement></block><block type="device_forever" id="x-1gceSy^r{pSfO.AG1!" x="276" y="-2"></block><block type="device_button_event" id=",KCi`%L]Gy8Z#^Np~W=Z" x="-11" y="207"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="basic_show_icon" id="},%ojm*S$YxKngq8g9pT"><field name="i">IconNames.Happy</field></block></statement></block><block type="device_button_event" id="J79vSFIXLiEDLQ%@:EAK" x="250" y="206"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="basic_show_icon" id="dmb@8)gyZ-Ful5$8eP$v"><field name="i">IconNames.Sad</field></block></statement></block><block type="device_button_event" id="6D|0~vFa0L!ypy$ESK2E" x="-17" y="409"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="basic_show_icon" id="HkfzCJO#WkH3U4MYMZK5"><field name="i">IconNames.Chessboard</field></block></statement></block><block type="input_logo_event" id="^!ep+@D]/Yr+adJqKikT" x="274" y="421"><field name="action">TouchButtonEvent.Pressed</field><statement name="HANDLER"><block type="device_show_leds" id="4Fh^W`uCs+/t{K|PA1Xr"><field name="LEDS">`
+        # . # . # 
+        . # . # . 
+        # . # . # 
+        . # . # . 
+        # . # . #
+        `</field></block></statement></block><block type="input_logo_event" id="NEV)hHBa?obeUjVz-4!c" x="570" y="430"><field name="action">TouchButtonEvent.LongPressed</field><statement name="HANDLER"><block type="device_show_leds" id="yxr|4kYk9Sj8?iMKF~g]"><field name="LEDS">`
+        . # . # . 
+        # . # . # 
+        . # . # . 
+        # . # . # 
+        . # . # .
+        `</field></block></statement></block></xml>
